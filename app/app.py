@@ -1,5 +1,15 @@
-import tkinter
+import tkinter as tk
+from tkinter import ttk
 
 
 
-tkinter._test()
+root = tk.Tk()
+
+
+ttk.Label(root, text='Hello world!', padding=(30, 10)).pack()
+
+root.mainloop()
+
+
+
+
