@@ -15,11 +15,14 @@ def name():
 user_name = tk.StringVar()
 
 
-name_label = ttk.Label(root, text="Name: ")                     # lbl name;
+name_label = ttk.Label(root, text="Name: ")                       # lbl name;
 name_label.pack(side="left", padx=(0, 10))
 name_entry = ttk.Entry(root, width=15, textvariable=user_name)     # lbl entry name;
 name_entry .pack(side='left')
 name_entry.focus()
+
+
+
 
 # telinha....
 ttk.Label(root, text='Telinha marota!', padding=(100, 80)).pack()                      # name { container } tela
