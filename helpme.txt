@@ -1,0 +1,3 @@
+# buttons ...
+pack(side = 'left', or 'right', or 'top')
+
